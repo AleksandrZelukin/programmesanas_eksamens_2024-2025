@@ -1,0 +1,91 @@
+Datu struktūras un programmsaskarnes
+Šajā eksāmena daļā būs jāstrādā ar datu struktūrām un piedāvāto programmsaskarni jeb API. 
+Aplūko datus par dažādām grāmatām un žurnāliem, kas pieejami pēc URL saites „https://pro2025.azurewebsites.net”. 
+Izpēti API dokumentāciju pēc URL saites „https://pro2025.azurewebsites.net/docs” vai „https://pro2025.azurewebsites.net/redoc”. 
+Izpildi norādītos uzdevumus.
+
+1. uzdevums (1 punkts).
+
+Uzraksti URL saiti, kuru ievadot adreses joslā tiktu attēloti dati tikai par žurnāliem.
+
+ 
+2. uzdevums (1 punkts).
+
+Uzraksti URL saiti, kuru ievadot adreses joslā tiktu attēloti dati tikai par 2000. gadā dibinātajiem žurnāliem.
+
+ 
+3. uzdevums (1 punkts).
+
+Uzraksti URL saiti, kuru ievadot adreses joslā tiktu attēloti dati tikai par 2020. gadā izdotajām grāmatām, kuru žanrs ir „Fantasy”.
+
+ 
+4. uzdevums (25 punkti).
+
+Izvēlētajā programmēšanas valodā izstrādā programmu, kas realizē turpmāk norādītos uzdevumus. 
+Savu programmu raksti vienā datnē. Ja nav norādīts citādi, izmanto URL saiti „https://pro2025.azurewebsites.net/books”. 
+Ievēro norādītos izvades piemērus un norādītos funkciju nosaukumus. Tāpat ievēro klašu, metožu, procedūru, 
+funkciju, atribūtu, objektu, mainīgo nosaukumu un datu tipu atbilstību labās prakses principiem.
+
+Pievieno savas programmas pirmkoda datni un uzraksti izvēlētās programmēšanas valodas nosaukumu un versiju. 
+Datnes nosaukuma veidošanas principu sk. attēlā zemāk.
+
+
+
+4.1. uzdevums.
+
+Izveido pieprasījumu uz norādīto URL saiti (1 punkts). Pārbaudi, vai iegūtās atbildes statusa kods ir „200”, 
+un izvadi atbilstošu paziņojumu (1 punkts). 
+
+4.2. uzdevums.
+
+Atbilstoši piemēram (1 punkts) izvadi datus par visām grāmatām, datus par katru grāmatu izvadot jaunajā rindā 
+(1 punkts).
+
+Vienas grāmatas datu izvades piemērs:
+
+Grāmata "<<nosaukums>>" (<<gads>>), <<lappušu skaits>> lpp.
+4.3. uzdevums.
+
+Iegūsti visu grāmatu nosaukumus (1 punkts) un ieraksti tos JSON datnē „nosaukumi.json” (1 punkts). 
+Pievieno eksāmena vidē šo izveidoto datni.
+
+4.4. uzdevums.
+
+Atrodi visvecāko grāmatu un izvadi tās nosaukumu (1 punkts).
+
+4.5. uzdevums.
+
+Aprēķini un izvadi visu grāmatu kopējo lappušu skaitu un vidējo aritmētisko cenu visām grāmatām (3 punkti).
+
+4.6. uzdevums.
+
+Izveido funkciju „garakais_nosaukums”, kas atgriež grāmatu ar garāko nosaukumu (1 punkts). 
+Izmantojot izveidotās funkcijas atgriezto vērtību, izvadi atbilstošās grāmatas autoru un gadu (1 punkts).
+
+4.7. uzdevums.
+
+Izveido datu struktūru ar visiem datiem par visām grāmatām (1 punkts). 
+Tām grāmatām, kurām nav norādīts autors, autora laukā ieraksti „Nav norādīts” (1 punkts).
+
+4.8. uzdevums.
+
+Izmantojot 4.7. apakšuzdevumā izveidoto datu struktūru, izvadi visu grāmatu autorus alfabētiskā secībā (A–Z) (1 punkts), 
+turklāt nodrošinot, ka autori neatkārtojas (1 punkts).
+
+4.9. uzdevums.
+
+Izmantojot 4.7. apakšuzdevumā izveidoto datu struktūru, atrodi un atbilstoši piemēram izvadi autoru, kuram ir visvairāk grāmatu (1 punkts), 
+šī autora grāmatu nosaukumus (1 punkts) un šo grāmatu skaitu (1 punkts).
+
+Izvades piemērs:
+
+Autors, kuram ir visvairāk grāmatu (<<grāmatu skaits>>), - <<autors>>:
+1. "<<nosaukums>>"
+2. "<<nosaukums>>"
+...
+4.10. uzdevums.
+
+Izveido sarakstu ar 10 žurnāliem, kas ir nejauši izvēlēti no visiem žurnāliem, kas ir pieejami pēc URL saites 
+„https://pro2025.azurewebsites.net/journals” (1 punkts), sarakstā iekļaujot tikai žurnālu nosaukumus un izdevējus (1 punkts). 
+Izveido funkciju, kas pievieno jaunu žurnālu saraksta sākumā (2 punkti), ievērojot, ka jaunā žurnāla nosaukumu un izdevēju ievada lietotājs (1 punkts). I
+zveido funkciju, kas dzēš sarakstā pēdējo žurnālu (1 punkts).

@@ -1,0 +1,73 @@
+Datubāzes izstrāde un izmantošana
+Šajā eksāmena daļā būs jāizstrādā datubāze un jāizveido vaicājumi. Izlasi un izpēti problēmsituācijas aprakstu, izpildi 2. daļas uzdevumus.
+
+Kāda novada bibliotēka ir pieņēmusi lēmumu paplašināt un padarīt daudzveidīgāku bibliotēkas pašreizējo darbību. Tā plāno deviņu mēnešu laikā izveidot digitālo bibliotēku ar visām jauno tehnoloģiju priekšrocībām, ievērojot normatīvo aktu prasības par informācijas sistēmu un datu drošību.
+
+Plānots pievienot digitālajai versijai gan pašreizējos lietotājus, pārnesot uz jauno sistēmu nepieciešamos datus no vecās datorizētās lietotāju uzskaites sistēmas un papildinot tos, gan piedāvāt pievienoties jauniem lietotājiem, kā arī uzturēt grāmatu lasīšanas statistiku, pārvaldīt lietotāju piekļuvi utt.
+
+Programmētāju komandai, kura strādā ar digitālās bibliotēkas izstrādes projektu, ir dots uzdevums izveidot jaunu datubāzi. Darba veikšanai no pasūtītāja tika saņemta CSV datne ar bibliotēkas lietotāju datiem – „lietotaji.csv”.
+
+1. uzdevums (12 punkti).
+
+Izvēlētajā datubāzu vadības sistēmā izstrādā datubāzi, kas realizē turpmāk norādītos uzdevumus. Ievēro tabulu un lauku nosaukumu, kā arī datu tipu atbilstību labās prakses principiem.
+
+Pievieno datubāzes datni vai SQL kodā eksportēto datubāzi un uzraksti izvēlētās datubāzu vadības sistēmas nosaukumu un versiju. Datnes nosaukuma veidošanas principu sk. attēlā zemāk.
+
+1.1. uzdevums (2 punkti).
+
+Izveido tabulu „GRAMATAS”, lai tā atbilstu norādītajam aprakstam (iekavās ir norādīti datu piemēri):
+
+nosaukums („Epifānijas”);
+autors (Imants Ziedonis);
+žanrs (dzeja);
+izdošanas gads (2022);
+lappušu skaits (304).
+1.2. uzdevums (3 punkti).
+
+Pamatojoties uz datnes „lietotaji.csv” saturu, pievieno datubāzei tabulu „LIETOTAJI”, kurā glabāsies informācija par bibliotēkas lietotājiem. Ja nepieciešams, pievieno tabulai „LIETOTAJI” papildu laukus, lai būtu iespēja strādāt ar piedāvātajiem datiem. 
+
+1.3. uzdevums (4 punkti).
+
+Saplāno un pievieno datubāzei tabulu „STATISTIKA”, kurā glabāsies statistiskā informācija par lietotājiem un grāmatām, kuras viņi ir lasījuši, tostarp, kad un cik ilgu laiku. 
+
+1.4. uzdevums (3 punkti).
+
+Saplāno un apraksti divas relācijas starp iepriekš izveidotajām tabulām, lai nodrošinātu datu nedublēšanos un integritāti. Atbilstoši piemēram norādi relāciju tipus un katrā relācijā iesaistītās tabulas un laukus. Sniedzot savu atbildi, ievēro norādīto piemēru. 
+
+Atbildes sniegšanas piemērs:
+
+1. relācija
+Pirmā sasaistītā tabula, lauks: ...
+Otrā sasaistītā tabula, lauks: ...
+Tips: ...
+2. relācija
+Pirmā sasaistītā tabula, lauks: ...
+Otrā sasaistītā tabula, lauks: ...
+Tips: ...
+ 
+2. uzdevums (8 punkti).
+
+Izmantojot kāda cita novada bibliotēku datubāzes ER modeli (sk. attēlu zemāk), izveido četrus SQL vaicājumus, kas sniedz norādīto informāciju.
+
+
+
+2.1. uzdevums (2 punkti).
+
+Visu bibliotēku unikālie identifikatori (ID), nosaukumi un adreses.
+
+ 
+2.2. uzdevums (2 punkti).
+
+Grāmatu, kas izdotas 2006. gadā, nosaukumi un autori.
+
+ 
+2.3. uzdevums (2 punkti).
+
+Grāmatu, kuru autora lauks satur teksta virkni „Eglītis”, vidējā cena.
+
+ 
+2.4. uzdevums (2 punkti).
+
+Bibliotēku adreses, kur vismaz piecos eksemplāros ir pieejama Imanta Ziedoņa grāmata „Epifānijas”.
+
+ 
