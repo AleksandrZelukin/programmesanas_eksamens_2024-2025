@@ -9,6 +9,17 @@ autors (Imants Ziedonis);
 žanrs (dzeja);
 izdošanas gads (2022);
 pieejamības statuss (pieejama).
+
+class Gramata():
+    def __init__(self,nosaukums,lapp_skaits, ISBN, autors, zanrs, izd_gads, piejams_status = "piejams"):
+    self.nosaukums=nosaukums
+    self.lapp_skaits=lapp_skaits
+    self.isbn=ISBN
+    self.autors=autors
+    self.zanrs=zanrs
+    self.izd_gads=izd_gads
+    self.piejams_status=piejams_status
+
 1.2. uzdevums.
 
 Izveido klasei „Gramata” konstruktoru, kas, ja visi klases atribūti ir norādīti, izveido konkrētas grāmatas objektu (1 punkts) un izvada atbilstošu ziņojumu (1 punkts). Ja objektam netiek norādīts kāds no obligātajiem atribūtiem, tam(tiem) tiek piešķirtas noklusētās vērtības (iekavās ir norādīti datu piemēri) (2 punkti):
