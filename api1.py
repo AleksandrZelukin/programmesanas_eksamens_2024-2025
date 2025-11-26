@@ -20,3 +20,7 @@ info = requests.get(url).text.splitlines()
 for line in info:
      if line.strip() == "500; 37824; Skujupīte; L;  ; 14222; 3; 0;  ; 3; Venta; 3,7824E+11":
         print(line.strip())
+        
+info = requests.get("https://api.thecatapi.com/v1/breeds")
+
+print(requests.headers)
