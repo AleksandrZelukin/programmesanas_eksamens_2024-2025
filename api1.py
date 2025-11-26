@@ -23,4 +23,4 @@ for line in info:
         
 info = requests.get("https://api.thecatapi.com/v1/breeds")
 
-print(requests.headers)
+print(response.text)
