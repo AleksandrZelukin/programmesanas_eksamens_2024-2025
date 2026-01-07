@@ -1,0 +1,1 @@
+SELECT vards,uzvards FROM darbinieks  WHERE atvalinajums == "YES"
