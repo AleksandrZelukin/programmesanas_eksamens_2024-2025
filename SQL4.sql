@@ -1,0 +1,1 @@
+SELECT SUM(summa), nosaukums FROM kafejnicas, darbinieki, pasutijums WHERE kafejnica == ID_kafejnica AND ID_darbinieks == darbinieks GROUP BY nosaukums

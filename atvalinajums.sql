@@ -1,1 +1,1 @@
-SELECT vards, uzvards, sum(summa) from darbinieks,pasutijums WHERE ID_darbinieks == darbinieks GROUP by vards, uzvards
+SELECT vards, uzvards, atvalinajums AS Atvalinājumā from darbinieki WHERE atvalinajums == "YES"

@@ -1,0 +1,1 @@
+SELECT count(*) AS Daudzums, apraksts FROM pasutijums GROUP BY apraksts

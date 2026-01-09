@@ -1,0 +1,1 @@
+SELECT vards, sum(summa) AS Kopā FROM pasutijums, darbinieki WHERE darbinieks == ID_darbinieks GROUP BY vards

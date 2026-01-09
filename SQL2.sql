@@ -1,0 +1,1 @@
+SELECT vards, apraksts, summa FROM pasutijums, darbinieki WHERE darbinieks == ID_darbinieks
