@@ -88,13 +88,13 @@ VALUES (?, ?, ?, ?, ?, ?)
     ('Ceļš uz mājām', 'Anna Ozola', 'romāns', 2010, 250, 11.00)
 ])
 
-cursor.executemany("""
-INSERT INTO LIETOTAJI (vards, uzvards, personas_kods, registracijas_datums)
-VALUES (?, ?, ?, ?)
-""", [
-    ('Anna', 'Ozola', '010101-12345', '2024-03-12'),
-    ('Jānis', 'Bērziņš', '020202-67890', '2024-05-10')
-])
+# cursor.executemany("""
+# INSERT INTO LIETOTAJI (vards, uzvards, personas_kods, registracijas_datums)
+# VALUES (?, ?, ?, ?)
+# """, [
+#     ('Anna', 'Ozola', '010101-12345', '2024-03-12'),
+#     ('Jānis', 'Bērziņš', '020202-67890', '2024-05-10')
+# ])
 
 cursor.executemany("""
 INSERT INTO STATISTIKA (lietotaja_id, gramatas_id, izsniegsanas_datums, atgriesanas_datums)
